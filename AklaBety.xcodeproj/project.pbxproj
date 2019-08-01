@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043BCBF722F1DBC3007EEAD0 /* TextFieldLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCBF622F1DBC3007EEAD0 /* TextFieldLayout.swift */; };
 		04C6C5C822EF1BB200129F9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6C5C722EF1BB200129F9A /* AppDelegate.swift */; };
 		04C6C5CF22EF1BB800129F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C6C5CE22EF1BB800129F9A /* Assets.xcassets */; };
 		04C6C5D222EF1BB800129F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C6C5D022EF1BB800129F9A /* LaunchScreen.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043BCBF622F1DBC3007EEAD0 /* TextFieldLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldLayout.swift; sourceTree = "<group>"; };
 		04C6C5C422EF1BB200129F9A /* AklaBety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AklaBety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C6C5C722EF1BB200129F9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C6C5CE22EF1BB800129F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		04C6C5DC22EF1C3E00129F9A /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				043BCBF622F1DBC3007EEAD0 /* TextFieldLayout.swift */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				04C6C5C822EF1BB200129F9A /* AppDelegate.swift in Sources */,
 				04C6C5E022EF1CFB00129F9A /* StartVC.swift in Sources */,
 				04C6C5E422EF25B200129F9A /* LoginVC.swift in Sources */,
+				043BCBF722F1DBC3007EEAD0 /* TextFieldLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

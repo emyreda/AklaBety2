@@ -9,22 +9,58 @@
 import UIKit
 
 class LoginVC: UIViewController {
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+      
+        
+        // UIbutton
+        let backbutton = UIButton(type: .custom)
+        
+       // backbutton.setTitle("<", for: .normal)
+        backbutton.setImage(UIImage(named: "Backward arrow-1"), for: .normal)
+        backbutton.setTitleColor(.red, for: .normal)
+        backbutton.setTitleColor(backbutton.tintColor, for: .normal)
+        backbutton.addTarget(self, action: Selector(("handleDismiss")), for: .touchUpInside)
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: backbutton)
+        
+    
+          configureUI()
+ 
+ 
+ 
     }
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    
+    @objc func handleDismiss() {
+        dismiss(animated: true, completion: nil)
+        
+        
+        
+        
+        
+        
+        
     }
-    */
+    
+    // MARK: - Helper Functions
+    
+    func configureUI() {
 
+        
+        navigationController?.navigationBar.barTintColor = UIColor(red: 23/255, green: 57/255, blue: 3/255, alpha: 1)
+        
+       navigationItem.title = "Log In"
+       navigationController?.navigationBar.barStyle = .black
+        
+        
+        
+    }
+    
+    
 }

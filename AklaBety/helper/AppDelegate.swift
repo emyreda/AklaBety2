@@ -15,34 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+      
         
-        
-        
-         window = UIWindow(frame: UIScreen.main.bounds)
-         let mainVC = StartVC(nibName: "StartVC", bundle: nil)
-         let nav = UINavigationController(rootViewController: mainVC)
-         
-         window?.rootViewController = nav
-         window?.makeKeyAndVisible()
-        
-         
-        
-        
-        /*
         let mainVC = StartVC(nibName: "StartVC", bundle: nil)
-        
-        
         window?.rootViewController = mainVC
         
         
+    // For all navigation controller Layout
+        /*
+    let navigationBarAppearace = UINavigationBar.appearance()
+        
+    navigationBarAppearace.barTintColor = UIColor(red: 23/255, green: 57/255, blue: 3/255, alpha: 1)
         */
-        
-        
-        
-        
-        
-        
         
         return true
     }
