@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		040C3EBC22F46D7A004906D5 /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = 040C3EBB22F46D7A004906D5 /* GoogleService-Info .plist */; };
 		040C3EC222F491A6004906D5 /* gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C3EC122F491A5004906D5 /* gif.swift */; };
-		040C3EC422F49352004906D5 /* اللوجو6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 040C3EC322F49351004906D5 /* اللوجو6.gif */; };
+		040C3EC822F4C467004906D5 /* اللوجو6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 040C3EC722F4C467004906D5 /* اللوجو6.gif */; };
 		0415DB5B22F432EA002213CC /* ForgetPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415DB5922F432EA002213CC /* ForgetPassVC.swift */; };
 		0415DB5C22F432EA002213CC /* ForgetPassVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0415DB5A22F432EA002213CC /* ForgetPassVC.xib */; };
 		0415DB5F22F43964002213CC /* VerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415DB5D22F43964002213CC /* VerificationVC.swift */; };
@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		040C3EBB22F46D7A004906D5 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info .plist"; path = "../../../Downloads/GoogleService-Info .plist"; sourceTree = "<group>"; };
 		040C3EC122F491A5004906D5 /* gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gif.swift; sourceTree = SOURCE_ROOT; };
-		040C3EC322F49351004906D5 /* اللوجو6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "اللوجو6.gif"; path = "../../../اللوجو6.gif"; sourceTree = "<group>"; };
+		040C3EC722F4C467004906D5 /* اللوجو6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "اللوجو6.gif"; sourceTree = SOURCE_ROOT; };
 		0415DB5922F432EA002213CC /* ForgetPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPassVC.swift; sourceTree = "<group>"; };
 		0415DB5A22F432EA002213CC /* ForgetPassVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPassVC.xib; sourceTree = "<group>"; };
 		0415DB5D22F43964002213CC /* VerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationVC.swift; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 		04C6C5DA22EF1C2B00129F9A /* helper */ = {
 			isa = PBXGroup;
 			children = (
-				040C3EC322F49351004906D5 /* اللوجو6.gif */,
+				040C3EC722F4C467004906D5 /* اللوجو6.gif */,
 				04C6C5C722EF1BB200129F9A /* AppDelegate.swift */,
 			);
 			path = helper;
@@ -259,7 +259,7 @@
 			files = (
 				04C6C5D222EF1BB800129F9A /* LaunchScreen.storyboard in Resources */,
 				04C6C5CF22EF1BB800129F9A /* Assets.xcassets in Resources */,
-				040C3EC422F49352004906D5 /* اللوجو6.gif in Resources */,
+				040C3EC822F4C467004906D5 /* اللوجو6.gif in Resources */,
 				040C3EBC22F46D7A004906D5 /* GoogleService-Info .plist in Resources */,
 				0415DB6422F44036002213CC /* SignUpVC.xib in Resources */,
 				04C6C5E522EF25B200129F9A /* LoginVC.xib in Resources */,
@@ -325,6 +325,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AklaBety/Pods-AklaBety-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 			);
@@ -332,6 +333,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 			);

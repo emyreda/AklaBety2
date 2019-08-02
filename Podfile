@@ -9,4 +9,5 @@ target 'AklaBety' do
 
 pod 'GoogleSignIn'
 
+pod 'Alamofire'
 end
