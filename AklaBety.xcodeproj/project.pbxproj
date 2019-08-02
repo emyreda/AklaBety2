@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040C3EBC22F46D7A004906D5 /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = 040C3EBB22F46D7A004906D5 /* GoogleService-Info .plist */; };
+		040C3EC222F491A6004906D5 /* gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C3EC122F491A5004906D5 /* gif.swift */; };
+		040C3EC422F49352004906D5 /* اللوجو6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 040C3EC322F49351004906D5 /* اللوجو6.gif */; };
+		0415DB5B22F432EA002213CC /* ForgetPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415DB5922F432EA002213CC /* ForgetPassVC.swift */; };
+		0415DB5C22F432EA002213CC /* ForgetPassVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0415DB5A22F432EA002213CC /* ForgetPassVC.xib */; };
+		0415DB5F22F43964002213CC /* VerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415DB5D22F43964002213CC /* VerificationVC.swift */; };
+		0415DB6022F43964002213CC /* VerificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0415DB5E22F43964002213CC /* VerificationVC.xib */; };
+		0415DB6322F44036002213CC /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415DB6122F44036002213CC /* SignUpVC.swift */; };
+		0415DB6422F44036002213CC /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0415DB6222F44036002213CC /* SignUpVC.xib */; };
 		043BCBF722F1DBC3007EEAD0 /* TextFieldLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BCBF622F1DBC3007EEAD0 /* TextFieldLayout.swift */; };
 		04C6C5C822EF1BB200129F9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6C5C722EF1BB200129F9A /* AppDelegate.swift */; };
 		04C6C5CF22EF1BB800129F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C6C5CE22EF1BB800129F9A /* Assets.xcassets */; };
@@ -15,9 +24,19 @@
 		04C6C5E122EF1CFB00129F9A /* StartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C6C5DF22EF1CFB00129F9A /* StartVC.xib */; };
 		04C6C5E422EF25B200129F9A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6C5E222EF25B200129F9A /* LoginVC.swift */; };
 		04C6C5E522EF25B200129F9A /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C6C5E322EF25B200129F9A /* LoginVC.xib */; };
+		AEEC8F8051AD5B68692AB5F3 /* Pods_AklaBety.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6662C3C8DC2288D40CEF9D /* Pods_AklaBety.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040C3EBB22F46D7A004906D5 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info .plist"; path = "../../../Downloads/GoogleService-Info .plist"; sourceTree = "<group>"; };
+		040C3EC122F491A5004906D5 /* gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gif.swift; sourceTree = SOURCE_ROOT; };
+		040C3EC322F49351004906D5 /* اللوجو6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "اللوجو6.gif"; path = "../../../اللوجو6.gif"; sourceTree = "<group>"; };
+		0415DB5922F432EA002213CC /* ForgetPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPassVC.swift; sourceTree = "<group>"; };
+		0415DB5A22F432EA002213CC /* ForgetPassVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPassVC.xib; sourceTree = "<group>"; };
+		0415DB5D22F43964002213CC /* VerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationVC.swift; sourceTree = "<group>"; };
+		0415DB5E22F43964002213CC /* VerificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerificationVC.xib; sourceTree = "<group>"; };
+		0415DB6122F44036002213CC /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		0415DB6222F44036002213CC /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
 		043BCBF622F1DBC3007EEAD0 /* TextFieldLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldLayout.swift; sourceTree = "<group>"; };
 		04C6C5C422EF1BB200129F9A /* AklaBety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AklaBety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C6C5C722EF1BB200129F9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +47,9 @@
 		04C6C5DF22EF1CFB00129F9A /* StartVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartVC.xib; sourceTree = "<group>"; };
 		04C6C5E222EF25B200129F9A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		04C6C5E322EF25B200129F9A /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		5B6662C3C8DC2288D40CEF9D /* Pods_AklaBety.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AklaBety.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		832543AD87A717CA6FF0C42C /* Pods-AklaBety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AklaBety.release.xcconfig"; path = "Target Support Files/Pods-AklaBety/Pods-AklaBety.release.xcconfig"; sourceTree = "<group>"; };
+		EEE930B0DD55AF4B357C806B /* Pods-AklaBety.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AklaBety.debug.xcconfig"; path = "Target Support Files/Pods-AklaBety/Pods-AklaBety.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +57,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEEC8F8051AD5B68692AB5F3 /* Pods_AklaBety.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0415DB6522F454FE002213CC /* login */ = {
+			isa = PBXGroup;
+			children = (
+				04C6C5E222EF25B200129F9A /* LoginVC.swift */,
+				04C6C5E322EF25B200129F9A /* LoginVC.xib */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		0415DB6622F45511002213CC /* verification */ = {
+			isa = PBXGroup;
+			children = (
+				0415DB5D22F43964002213CC /* VerificationVC.swift */,
+				0415DB5E22F43964002213CC /* VerificationVC.xib */,
+			);
+			path = verification;
+			sourceTree = "<group>";
+		};
+		0415DB6722F4552F002213CC /* forgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				0415DB5922F432EA002213CC /* ForgetPassVC.swift */,
+				0415DB5A22F432EA002213CC /* ForgetPassVC.xib */,
+			);
+			path = forgetPassword;
+			sourceTree = "<group>";
+		};
+		0415DB6822F45555002213CC /* signUp */ = {
+			isa = PBXGroup;
+			children = (
+				0415DB6122F44036002213CC /* SignUpVC.swift */,
+				0415DB6222F44036002213CC /* SignUpVC.xib */,
+			);
+			path = signUp;
+			sourceTree = "<group>";
+		};
+		0415DB6922F45568002213CC /* start */ = {
+			isa = PBXGroup;
+			children = (
+				04C6C5DE22EF1CFB00129F9A /* StartVC.swift */,
+				04C6C5DF22EF1CFB00129F9A /* StartVC.xib */,
+			);
+			path = start;
+			sourceTree = "<group>";
+		};
 		04C6C5BB22EF1BB200129F9A = {
 			isa = PBXGroup;
 			children = (
 				04C6C5C622EF1BB200129F9A /* AklaBety */,
 				04C6C5C522EF1BB200129F9A /* Products */,
+				06ECEF601E67D4B5AE18F9D2 /* Pods */,
+				58CD62BEB7A5D59C4DA0EA29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +137,7 @@
 				04C6C5CE22EF1BB800129F9A /* Assets.xcassets */,
 				04C6C5D022EF1BB800129F9A /* LaunchScreen.storyboard */,
 				04C6C5D322EF1BB800129F9A /* Info.plist */,
+				040C3EBB22F46D7A004906D5 /* GoogleService-Info .plist */,
 			);
 			path = AklaBety;
 			sourceTree = "<group>";
@@ -74,10 +145,11 @@
 		04C6C5D922EF1C0E00129F9A /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				04C6C5DE22EF1CFB00129F9A /* StartVC.swift */,
-				04C6C5DF22EF1CFB00129F9A /* StartVC.xib */,
-				04C6C5E222EF25B200129F9A /* LoginVC.swift */,
-				04C6C5E322EF25B200129F9A /* LoginVC.xib */,
+				0415DB6922F45568002213CC /* start */,
+				0415DB6822F45555002213CC /* signUp */,
+				0415DB6722F4552F002213CC /* forgetPassword */,
+				0415DB6622F45511002213CC /* verification */,
+				0415DB6522F454FE002213CC /* login */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -85,6 +157,7 @@
 		04C6C5DA22EF1C2B00129F9A /* helper */ = {
 			isa = PBXGroup;
 			children = (
+				040C3EC322F49351004906D5 /* اللوجو6.gif */,
 				04C6C5C722EF1BB200129F9A /* AppDelegate.swift */,
 			);
 			path = helper;
@@ -100,9 +173,27 @@
 		04C6C5DC22EF1C3E00129F9A /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				040C3EC122F491A5004906D5 /* gif.swift */,
 				043BCBF622F1DBC3007EEAD0 /* TextFieldLayout.swift */,
 			);
 			path = classes;
+			sourceTree = "<group>";
+		};
+		06ECEF601E67D4B5AE18F9D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEE930B0DD55AF4B357C806B /* Pods-AklaBety.debug.xcconfig */,
+				832543AD87A717CA6FF0C42C /* Pods-AklaBety.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		58CD62BEB7A5D59C4DA0EA29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B6662C3C8DC2288D40CEF9D /* Pods_AklaBety.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C6C5D622EF1BB800129F9A /* Build configuration list for PBXNativeTarget "AklaBety" */;
 			buildPhases = (
+				3DC6DCF455D6D062531E2860 /* [CP] Check Pods Manifest.lock */,
 				04C6C5C022EF1BB200129F9A /* Sources */,
 				04C6C5C122EF1BB200129F9A /* Frameworks */,
 				04C6C5C222EF1BB200129F9A /* Resources */,
+				B8271089D9DAD251B70EF13B /* [CP] Embed Pods Frameworks */,
+				28476643835B396A2C80C3D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,21 +259,101 @@
 			files = (
 				04C6C5D222EF1BB800129F9A /* LaunchScreen.storyboard in Resources */,
 				04C6C5CF22EF1BB800129F9A /* Assets.xcassets in Resources */,
+				040C3EC422F49352004906D5 /* اللوجو6.gif in Resources */,
+				040C3EBC22F46D7A004906D5 /* GoogleService-Info .plist in Resources */,
+				0415DB6422F44036002213CC /* SignUpVC.xib in Resources */,
 				04C6C5E522EF25B200129F9A /* LoginVC.xib in Resources */,
 				04C6C5E122EF1CFB00129F9A /* StartVC.xib in Resources */,
+				0415DB5C22F432EA002213CC /* ForgetPassVC.xib in Resources */,
+				0415DB6022F43964002213CC /* VerificationVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28476643835B396A2C80C3D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AklaBety/Pods-AklaBety-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AklaBety/Pods-AklaBety-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DC6DCF455D6D062531E2860 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AklaBety-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8271089D9DAD251B70EF13B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AklaBety/Pods-AklaBety-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AklaBety/Pods-AklaBety-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04C6C5C022EF1BB200129F9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0415DB6322F44036002213CC /* SignUpVC.swift in Sources */,
 				04C6C5C822EF1BB200129F9A /* AppDelegate.swift in Sources */,
+				040C3EC222F491A6004906D5 /* gif.swift in Sources */,
 				04C6C5E022EF1CFB00129F9A /* StartVC.swift in Sources */,
 				04C6C5E422EF25B200129F9A /* LoginVC.swift in Sources */,
+				0415DB5F22F43964002213CC /* VerificationVC.swift in Sources */,
+				0415DB5B22F432EA002213CC /* ForgetPassVC.swift in Sources */,
 				043BCBF722F1DBC3007EEAD0 /* TextFieldLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +490,7 @@
 		};
 		04C6C5D722EF1BB800129F9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE930B0DD55AF4B357C806B /* Pods-AklaBety.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -333,6 +508,7 @@
 		};
 		04C6C5D822EF1BB800129F9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832543AD87A717CA6FF0C42C /* Pods-AklaBety.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

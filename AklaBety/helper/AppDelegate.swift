@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import GoogleSignIn
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate ,GIDSignInDelegate{
 
     var window: UIWindow?
 
@@ -28,9 +29,67 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     navigationBarAppearace.barTintColor = UIColor(red: 23/255, green: 57/255, blue: 3/255, alpha: 1)
         */
         
+        
+        GIDSignIn.sharedInstance().clientID = "266274282237-l9kppa0g27m7fvotc95ifj7as7g1d0s0.apps.googleusercontent.com"
+
+        GIDSignIn.sharedInstance().delegate = self
+        
+        
         return true
     }
 
+    
+    
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        
+        return GIDSignIn.sharedInstance().handle(url as URL?,
+                                                 sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
+                                                 annotation: options[UIApplication.OpenURLOptionsKey.annotation])
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    private func application(application: UIApplication,
+                             openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+        var _: [String: AnyObject] = [UIApplication.OpenURLOptionsKey.sourceApplication.rawValue: sourceApplication as AnyObject,
+                                      UIApplication.OpenURLOptionsKey.annotation.rawValue: annotation ?? "any" as AnyObject]
+        return GIDSignIn.sharedInstance().handle(url as URL,
+                                                 sourceApplication: sourceApplication,
+                                                 annotation: annotation)
+    }
+    
+    
+    
+    
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!,
+              withError error: Error!) {
+        if let error = error {
+            print("\(error.localizedDescription)")
+        } else {
+            // Perform any operations on signed in user here.
+            let userId = user.userID                  // For client-side use only!
+            let idToken = user.authentication.idToken // Safe to send to the server
+            let fullName = user.profile.name
+            let givenName = user.profile.givenName
+            let familyName = user.profile.familyName
+            let email = user.profile.email
+            // ...
+        }
+    }
+    
+    
+    
+    ///
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
